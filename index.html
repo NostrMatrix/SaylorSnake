@@ -117,7 +117,7 @@
     padding:0 10px;
   }
   #touchControls{
-    display:none;
+    display:grid;
     margin-top:14px;
     grid-template-columns:repeat(3,52px);
     grid-template-rows:repeat(3,52px);
@@ -130,15 +130,12 @@
     font-size:20px;
     border-radius:6px;
   }
-  @media (max-width:600px){
-    #touchControls{display:grid;}
-  }
 </style>
 </head>
 <body>
 
 <h1>₿ SAYLOR SNAKE ₿</h1>
-<div class="subtitle">STACK SATS. IGNORE THE MARGIN CALLS. NEVER SELL.</div>
+<div class="subtitle">STACK SATS. IGNORE THE MARGIN CALLS. NEVER SELL.*</div>
 
 <div id="hud">
   <div>SCORE: <span id="score">0</span></div>
